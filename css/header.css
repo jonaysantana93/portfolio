@@ -1,0 +1,46 @@
+/* Media query para pantallas pequeñas (móviles) */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: center;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .text-container {
+        margin-top: 10px; /* Espacio entre la imagen y el texto en dispositivos móviles */
+        margin-left: 0;   /* Elimina el margen izquierdo en dispositivos móviles */
+    }
+}
+
+/* Header */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #11031A;
+    color: white;
+    padding: 10px 20px;
+}
+
+/* Estilo de la imagen */
+.logo {
+    width: 50%;
+}
+
+/* Contenedor del texto para centrarlo verticalmente */
+.text-container {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+/* Estilo del texto */
+.text {
+    margin-left: 20px; /* Espacio entre la imagen y el texto */
+    font-size: 16px;   /* Ajusta el tamaño del texto según sea necesario */
+    text-align: justify;
+}

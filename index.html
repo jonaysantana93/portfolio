@@ -3,106 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jonay Santana</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#descripcion">Descripción</a></li>
-                <li><a href="#proyectos">Proyectos</a></li>
-                <li><a href="#sobre-mi">Sobre Mí</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
+    <header class="header">
+        <img src="resources/header_principal_image.jpg" alt="Logo" class="logo">
+        <div class="text-container">
+            <p class="text">Mi nombre es Jonay Santana, soy desarrollador front-end con base en Telde, Gran Canaria, España. He trabajado en una amplia variedad de proyectos front-end, desde aplicaciones para streaming, banca, museos, entre muchas otras, con un enfoque en crear interfaces limpias y bien elaboradas que no solo se vean geniales, sino que también ofrezcan una experiencia de usuario fluida e intuitiva.</p>
+        </div>
     </header>
 
-    <main>
-        <section id="inicio">
-            <h1>Jonay Santana</h1>
-            <p>Desarrollador Móvil</p>
-        </section>
-
-        <section id="descripcion">
-            <div class="descripcion-contenido">
-                <div class="columna_left">
-                    <p>Hola, soy Jonay, un desarrollador móvil con sede en Gran Canaria. </p>
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="project-grid">
+                <div class="project-item">
+                    <img src="resources/projects/guaguas_global/App_design.png" alt="Project 1">
+                    <h3>Guaguas GLOBAL</h3>
+                    <p>Guaguas GLOBAL es la aplicación esencial para todos los viajeros que desean mantenerse informados sobre el estado del servicio de autobuses en tiempo real. 
+                        Ya sea que estés planeando tu próximo viaje o esperando tu autobús, Guaguas GLOBAL te proporciona toda la información que necesitas para que tu experiencia de viaje sea fluida y sin estrés.</p>
                 </div>
-                <div class="columna_right">
-                    <p>Con mas de 4 años de experiencia en el desarrollo móvil, trabajando con grandes empresas nacionales e internacionales para crear y mejorar la experiencia de los usuarios.</p>
+                <div class="project-item">
+                    <img src="resources/projects/guaguas_lp/App_design.png" alt="Project 2">
+                    <h3>Guaguas LPA</h3>
+                    <p>Guaguas LPA es la aplicación esencial para todos los viajeros que desean mantenerse informados sobre el estado del servicio de autobuses en tiempo real. 
+                        Ya sea que estés planeando tu próximo viaje o esperando tu autobús, Guaguas LPA te proporciona toda la información que necesitas para que tu experiencia de viaje sea fluida y sin estrés.</p>
                 </div>
-            </div>
-        </section>
-
-        <section id="trabajado">
-            <div class="trabajado-contenido">
-                <div class="columna_left">
-                    <p class="trabajo-title">Empresas con las que he trabajado</p>
-                </div>
-                <div class="columna_right">
-                    <div class="empresa_column">
-                        <div class="empresa">
-                            <img src="./resources/visitr_logo.png" alt="Visitr">
-                        </div>
-                        <div class="empresa">
-                            <img src="./resources/visitr_logo.png" alt="Visitr">
-                        </div>
-                        <div class="empresa">
-                            <img src="./resources/visitr_logo.png" alt="Visitr">
-                        </div>
-                    </div>
-                    <div class="empresa_column">
-                        <div class="empresa">
-                            <img src="./resources/visitr_logo.png" alt="Visitr">
-                        </div>
-                        <div class="empresa">
-                            <img src="./resources/visitr_logo.png" alt="Visitr">
-                        </div>
-                        <div class="empresa">
-                            <img src="./resources/visitr_logo.png" alt="Visitr">
-                        </div>
-                    </div>
+                <div class="project-item">
+                    <img src="resources/projects/museo_canario/app_design.png" alt="Project 3">
+                    <h3>Museo Canario</h3>
+                    <p>El Museo Canario es una sociedad científica y cultural fundada en Las Palmas de Gran Canaria en 1879 a iniciativa de varios miembros de la burguesía local encabezados por el Dr. Gregorio Chil y Naranjo y el historiador y notario Agustín Millares Torres.</p>
                 </div>
             </div>
-        </section>
 
-        <section id="proyectos">
-            <h2>Proyectos</h2>
-            <div class="proyecto-grid">
-                <div class="proyecto">
-                    <img src="proyecto1.jpg" alt="Proyecto 1">
-                    <h3>Nombre del Proyecto 1</h3>
-                    <p>Breve descripción del proyecto 1.</p>
+            <div class="project-grid">
+                <div class="project-item">
+                    <img src="resources/projects/visitr/app_design.png" alt="Project 4">
+                    <h3>Visitr</h3>
+                    <p>Explora un mundo de maravillas con Visitr, la aplicación fácil de usar para museos, puntos culturales, parques y centros turísticos. Perfecta tanto para entusiastas del viaje como para aventureros locales, Visitr transforma la manera en que experimentas el mundo.</p>
                 </div>
-                <div class="proyecto">
-                    <img src="proyecto2.jpg" alt="Proyecto 2">
-                    <h3>Nombre del Proyecto 2</h3>
-                    <p>Breve descripción del proyecto 2.</p>
+                <div class="project-item">
+                    <img src="resources/projects/paymaster/app_design.png" alt="Project 5">
+                    <h3>Paymaster Virtual (AUTGC)</h3>
+                    <p>Servicio de compras y recargas de tarjetas fisicas desde dispositivos moviles Android o Cajeros situados en toda la isla de la empresa de Transporte publico de Gran Canaria gestionado por la AUTGC "Autoridad única del transporte de Gran Canaria)</p>
                 </div>
-                <!-- Añade más proyectos aquí -->
+                <div class="project-item">
+                    <img src="resources/projects/api_lanzarote/api_design.png" alt="Project 6">
+                    <h3>Servicio Venta y Recarga Pidion Lanzarote</h3>
+                    <p>Servicio interno para la venta y recargas de soportes (Tarjetas socios) de la empresa de Transporte público de Lanzarote, en el cual se genera un servicio web basado en tecnología java para realizar la comunicación.</p>
+                </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section id="sobre-mi">
-            <h2>Sobre Mí</h2>
-            <p>Soy un desarrollador móvil apasionado por crear aplicaciones innovadoras y útiles. Con experiencia en desarrollo para Android e iOS, me especializo en crear experiencias de usuario intuitivas y atractivas.</p>
-        </section>
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I'm a developer with a focus on creating impactful digital experiences...</p>
+        </div>
+    </section>
 
-        <section id="contacto">
-            <h2>Contacto</h2>
-            <form>
-                <input type="text" placeholder="Nombre" required>
-                <input type="email" placeholder="Email" required>
-                <textarea placeholder="Mensaje" required></textarea>
-                <button type="submit">Enviar</button>
-            </form>
-        </section>
-    </main>
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Contact me at <a href="mailto:email@example.com">email@example.com</a> or follow me on social media.</p>
+        </div>
+    </section>
 
-    <footer>
-        <p>&copy; 2024 Tu Nombre. Todos los derechos reservados.</p>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 MiMarca. All Rights Reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
