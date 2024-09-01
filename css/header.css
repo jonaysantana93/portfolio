@@ -60,13 +60,15 @@
     text-decoration: none; /* Quitar subrayado */
 }
 
+/*
 .social-icons img {
     fill: white;
-    color: white; /* Color de los iconos */
-    width: 24px; /* Ajusta el tamaño según sea necesario */
+    color: white;
+    width: 24px;
     height: auto;
-    margin: 0 10px; /* Espacio entre íconos */
+    margin: 0 10px;
 }
+    */
 
 .social-icons .icon:hover {
     color: #2E4066; /* Cambia el color al pasar el mouse */
