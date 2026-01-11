@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,17 +9,34 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
+
 <body>
     <header class="header">
         <img src="resources/header_principal_image.jpg" alt="Logo" class="logo">
         <div class="text-container">
-            <p class="text">Mi nombre es Jonay Santana, soy desarrollador front-end con base en Telde, Gran Canaria, España. He trabajado en una amplia variedad de proyectos front-end, desde aplicaciones para streaming, banca, museos, entre muchas otras, con un enfoque en crear interfaces limpias y bien elaboradas que no solo se vean geniales, sino que también ofrezcan una experiencia de usuario fluida e intuitiva.</p>
+            <p class="text">Mi nombre es Jonay Santana, soy desarrollador front-end con base en Telde, Gran Canaria,
+                España. He trabajado en una amplia variedad de proyectos front-end, desde aplicaciones para streaming,
+                banca, museos, entre muchas otras, con un enfoque en crear interfaces limpias y bien elaboradas que no
+                solo se vean geniales, sino que también ofrezcan una experiencia de usuario fluida e intuitiva.</p>
         </div>
-        <div class="social-icons">
-            <a href="mailto:jonaysantana93@gmail.com" class="icon" aria-label="Email"><i class="fas fa-envelope"></i></a>
-            <a href="https://github.com/jonaysantana93" class="icon" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/jonay-santana-gonzalez/" class="icon" target="_blank" aria-label="Linkedin"><i class="fab fa-linkedin"></i></a>
-            <a href="https://discord.com/users/jonaySG#3827" class="icon" target="_blank" aria-label="Discord"><i class="fab fa-discord"></i></a>
+        <div class="header-actions">
+            <div class="social-icons">
+                <a href="mailto:jonaysantana93@gmail.com" class="icon" aria-label="Email"><i
+                        class="fas fa-envelope"></i></a>
+                <a href="https://github.com/jonaysantana93" class="icon" target="_blank" aria-label="GitHub"><i
+                        class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/jonay-santana-gonzalez/" class="icon" target="_blank"
+                    aria-label="Linkedin"><i class="fab fa-linkedin"></i></a>
+                <a href="https://discord.com/users/jonaySG#3827" class="icon" target="_blank" aria-label="Discord"><i
+                        class="fab fa-discord"></i></a>
+            </div>
+            <div class="lang-toggle">
+                <button class="lang-btn" id="langBtn" title="Toggle Language">
+                    <span class="lang-icon es">🇪🇸</span>
+                    <span class="lang-icon en">🇺🇸</span>
+                    <i class="fas fa-globe"></i>
+                </button>
+            </div>
         </div>
     </header>
 
@@ -28,19 +46,26 @@
                 <div class="project-item">
                     <img src="resources/projects/guaguas_global/App_design.png" alt="Project 1">
                     <h3>Guaguas GLOBAL</h3>
-                    <p>Guaguas GLOBAL es la aplicación esencial para todos los viajeros que desean mantenerse informados sobre el estado del servicio de autobuses en tiempo real. 
-                        Ya sea que estés planeando tu próximo viaje o esperando tu autobús, Guaguas GLOBAL te proporciona toda la información que necesitas para que tu experiencia de viaje sea fluida y sin estrés.</p>
+                    <p>Guaguas GLOBAL es la aplicación esencial para todos los viajeros que desean mantenerse informados
+                        sobre el estado del servicio de autobuses en tiempo real.
+                        Ya sea que estés planeando tu próximo viaje o esperando tu autobús, Guaguas GLOBAL te
+                        proporciona toda la información que necesitas para que tu experiencia de viaje sea fluida y sin
+                        estrés.</p>
                 </div>
                 <div class="project-item">
                     <img src="resources/projects/guaguas_lp/App_design.png" alt="Project 2">
                     <h3>Guaguas LPA</h3>
-                    <p>Guaguas LPA es la aplicación esencial para todos los viajeros que desean mantenerse informados sobre el estado del servicio de autobuses en tiempo real. 
-                        Ya sea que estés planeando tu próximo viaje o esperando tu autobús, Guaguas LPA te proporciona toda la información que necesitas para que tu experiencia de viaje sea fluida y sin estrés.</p>
+                    <p>Guaguas LPA es la aplicación esencial para todos los viajeros que desean mantenerse informados
+                        sobre el estado del servicio de autobuses en tiempo real.
+                        Ya sea que estés planeando tu próximo viaje o esperando tu autobús, Guaguas LPA te proporciona
+                        toda la información que necesitas para que tu experiencia de viaje sea fluida y sin estrés.</p>
                 </div>
                 <div class="project-item">
                     <img src="resources/projects/museo_canario/app_design.png" alt="Project 3">
                     <h3>Museo Canario</h3>
-                    <p>El Museo Canario es una sociedad científica y cultural fundada en Las Palmas de Gran Canaria en 1879 a iniciativa de varios miembros de la burguesía local encabezados por el Dr. Gregorio Chil y Naranjo y el historiador y notario Agustín Millares Torres.</p>
+                    <p>El Museo Canario es una sociedad científica y cultural fundada en Las Palmas de Gran Canaria en
+                        1879 a iniciativa de varios miembros de la burguesía local encabezados por el Dr. Gregorio Chil
+                        y Naranjo y el historiador y notario Agustín Millares Torres.</p>
                 </div>
             </div>
 
@@ -48,17 +73,23 @@
                 <div class="project-item">
                     <img src="resources/projects/visitr/app_design.png" alt="Project 4">
                     <h3>Visitr</h3>
-                    <p>Explora un mundo de maravillas con Visitr, la aplicación fácil de usar para museos, puntos culturales, parques y centros turísticos. Perfecta tanto para entusiastas del viaje como para aventureros locales, Visitr transforma la manera en que experimentas el mundo.</p>
+                    <p>Explora un mundo de maravillas con Visitr, la aplicación fácil de usar para museos, puntos
+                        culturales, parques y centros turísticos. Perfecta tanto para entusiastas del viaje como para
+                        aventureros locales, Visitr transforma la manera en que experimentas el mundo.</p>
                 </div>
                 <div class="project-item">
                     <img src="resources/projects/paymaster/app_design.png" alt="Project 5">
                     <h3>Paymaster Virtual (AUTGC)</h3>
-                    <p>Servicio de compras y recargas de tarjetas fisicas desde dispositivos moviles Android o Cajeros situados en toda la isla de la empresa de Transporte publico de Gran Canaria gestionado por la AUTGC "Autoridad única del transporte de Gran Canaria)</p>
+                    <p>Servicio de compras y recargas de tarjetas fisicas desde dispositivos moviles Android o Cajeros
+                        situados en toda la isla de la empresa de Transporte publico de Gran Canaria gestionado por la
+                        AUTGC "Autoridad única del transporte de Gran Canaria)</p>
                 </div>
                 <div class="project-item">
                     <img src="resources/projects/api_lanzarote/api_design.png" alt="Project 6">
                     <h3>Servicio Venta y Recarga Pidion Lanzarote</h3>
-                    <p>Servicio interno para la venta y recargas de soportes (Tarjetas socios) de la empresa de Transporte público de Lanzarote, en el cual se genera un servicio web basado en tecnología java para realizar la comunicación.</p>
+                    <p>Servicio interno para la venta y recargas de soportes (Tarjetas socios) de la empresa de
+                        Transporte público de Lanzarote, en el cual se genera un servicio web basado en tecnología java
+                        para realizar la comunicación.</p>
                 </div>
             </div>
         </div>
@@ -67,18 +98,132 @@
     <section id="about" class="about">
         <div class="container">
             <h2>Perfil Profesional</h2>
-            <p>Soy un desarrollador con una profunda pasión por la creación de experiencias digitales impactantes y efectivas. Mi trayectoria profesional me ha permitido adquirir una amplia experiencia en el desarrollo de aplicaciones móviles, tanto en plataformas Android como iOS. En el ámbito de Android, he trabajado en el diseño e implementación de aplicaciones que no solo cumplen con los requisitos técnicos, sino que también ofrecen una experiencia de usuario fluida y agradable. En el entorno iOS, he desarrollado aplicaciones que se integran perfectamente con el ecosistema Apple, aprovechando las mejores prácticas de diseño y funcionalidad<br/><br/></p>
-            <p>Además del desarrollo móvil, tengo una sólida base en el backend, donde he trabajado extensamente en la creación de APIs robustas y escalables. Mi experiencia con bases de datos incluye el diseño y la gestión de sistemas en PostgreSQL, MySQL y Oracle, lo que me ha permitido optimizar el rendimiento de las aplicaciones y garantizar la integridad de los datos. Mi conocimiento en Node.js ha complementado mis habilidades backend, dándome una perspectiva integral del desarrollo full-stack.<br/><br/></p>
-            <p>A lo largo de mi carrera, he aprendido a enfrentar desafíos complejos y a encontrar soluciones innovadoras para problemas técnicos. Mi enfoque se centra en la calidad del código, la eficiencia en el desarrollo y la adaptabilidad a las necesidades cambiantes del proyecto. Actualmente, estoy dedicando mis esfuerzos a especializarme en el desarrollo completo para Android, con el objetivo de dominar todas las facetas de esta plataforma y contribuir a la creación de aplicaciones que destaquen en términos de rendimiento, seguridad y usabilidad.<br/><br/></p>
-            <p>Mi meta es seguir evolucionando en el campo del desarrollo móvil, explorar nuevas tecnologías y metodologías, y colaborar en proyectos que no solo satisfagan las expectativas de los usuarios, sino que también marquen una diferencia significativa en el mercado digital. Estoy comprometido con el aprendizaje continuo y con la aplicación de las mejores prácticas para lograr resultados excepcionales en cada proyecto en el que participo."</p>
+            <p>Soy un desarrollador con una profunda pasión por la creación de experiencias digitales impactantes y
+                efectivas. Mi trayectoria profesional me ha permitido adquirir una amplia experiencia en el desarrollo
+                de aplicaciones móviles, tanto en plataformas Android como iOS. En el ámbito de Android, he trabajado en
+                el diseño e implementación de aplicaciones que no solo cumplen con los requisitos técnicos, sino que
+                también ofrecen una experiencia de usuario fluida y agradable. En el entorno iOS, he desarrollado
+                aplicaciones que se integran perfectamente con el ecosistema Apple, aprovechando las mejores prácticas
+                de diseño y funcionalidad<br /><br /></p>
+            <p>Además del desarrollo móvil, tengo una sólida base en el backend, donde he trabajado extensamente en la
+                creación de APIs robustas y escalables. Mi experiencia con bases de datos incluye el diseño y la gestión
+                de sistemas en PostgreSQL, MySQL y Oracle, lo que me ha permitido optimizar el rendimiento de las
+                aplicaciones y garantizar la integridad de los datos. Mi conocimiento en Node.js ha complementado mis
+                habilidades backend, dándome una perspectiva integral del desarrollo full-stack.<br /><br /></p>
+            <p>A lo largo de mi carrera, he aprendido a enfrentar desafíos complejos y a encontrar soluciones
+                innovadoras para problemas técnicos. Mi enfoque se centra en la calidad del código, la eficiencia en el
+                desarrollo y la adaptabilidad a las necesidades cambiantes del proyecto. Actualmente, estoy dedicando
+                mis esfuerzos a especializarme en el desarrollo completo para Android, con el objetivo de dominar todas
+                las facetas de esta plataforma y contribuir a la creación de aplicaciones que destaquen en términos de
+                rendimiento, seguridad y usabilidad.<br /><br /></p>
+            <p>Mi meta es seguir evolucionando en el campo del desarrollo móvil, explorar nuevas tecnologías y
+                metodologías, y colaborar en proyectos que no solo satisfagan las expectativas de los usuarios, sino que
+                también marquen una diferencia significativa en el mercado digital. Estoy comprometido con el
+                aprendizaje continuo y con la aplicación de las mejores prácticas para lograr resultados excepcionales
+                en cada proyecto en el que participo."</p>
         </div>
     </section>
 
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2024 Jonay Santana. Todos los derechos reservados.</p>
-            <p>Este contenido no puede ser reproducido, distribuido ni modificado sin el permiso expreso del titular de los derechos.</p>
+            <img src="resources/icon_principal_image.jpg" alt="JS Logo" class="footer-logo">
+            <p>&copy; 2026 Jonay Santana. Todos los derechos reservados.</p>
+            <p>Este contenido no puede ser reproducido, distribuido ni modificado sin el permiso expreso del titular de
+                los derechos.</p>
         </div>
     </footer>
+
+    <script>
+        const translations = {
+            es: {
+                headerText: "Mi nombre es Jonay Santana, soy desarrollador front-end con base en Telde, Gran Canaria, España. He trabajado en una amplia variedad de proyectos front-end, desde aplicaciones para streaming, banca, museos, entre muchas otras, con un enfoque en crear interfaces limpias y bien elaboradas que no solo se vean geniales, sino que también ofrezcan una experiencia de usuario fluida e intuitiva.",
+                profileTitle: "Perfil Profesional",
+                projects: {
+                    guaguasGlobal: "Guaguas GLOBAL es la aplicación esencial para todos los viajeros que desean mantenerse informados sobre el estado del servicio de autobuses en tiempo real. Ya sea que estés planeando tu próximo viaje o esperando tu autobús, Guaguas GLOBAL te proporciona toda la información que necesitas para que tu experiencia de viaje sea fluida y sin estrés.",
+                    guaguasLpa: "Guaguas LPA es la aplicación esencial para todos los viajeros que desean mantenerse informados sobre el estado del servicio de autobuses en tiempo real. Ya sea que estés planeando tu próximo viaje o esperando tu autobús, Guaguas LPA te proporciona toda la información que necesitas para que tu experiencia de viaje sea fluida y sin estrés.",
+                    museoCanario: "El Museo Canario es una sociedad científica y cultural fundada en Las Palmas de Gran Canaria en 1879 a iniciativa de varios miembros de la burguesía local encabezados por el Dr. Gregorio Chil y Naranjo y el historiador y notario Agustín Millares Torres.",
+                    visitr: "Explora un mundo de maravillas con Visitr, la aplicación fácil de usar para museos, puntos culturales, parques y centros turísticos. Perfecta tanto para entusiastas del viaje como para aventureros locales, Visitr transforma la manera en que experimentas el mundo.",
+                    paymaster: "Servicio de compras y recargas de tarjetas físicas desde dispositivos móviles Android o Cajeros situados en toda la isla de la empresa de Transporte público de Gran Canaria gestionado por la AUTGC \"Autoridad única del transporte de Gran Canaria\".",
+                    pidionLanzarote: "Servicio interno para la venta y recargas de soportes (Tarjetas socios) de la empresa de Transporte público de Lanzarote, en el cual se genera un servicio web basado en tecnología java para realizar la comunicación."
+                },
+                aboutP1: "Soy un desarrollador con una profunda pasión por la creación de experiencias digitales impactantes y efectivas. Mi trayectoria profesional me ha permitido adquirir una amplia experiencia en el desarrollo de aplicaciones móviles, tanto en plataformas Android como iOS...",
+                aboutP2: "Además del desarrollo móvil, tengo una sólida base en el backend, donde he trabajado extensamente en la creación de APIs robustas y escalables...",
+                aboutP3: "A lo largo de mi carrera, he aprendido a enfrentar desafíos complejos y a encontrar soluciones innovadoras para problemas técnicos...",
+                aboutP4: "Mi meta es seguir evolucionando en el campo del desarrollo móvil, explorar nuevas tecnologías y metodologías...",
+                footer1: "&copy; 2026 Jonay Santana. Todos los derechos reservados.",
+                footer2: "Este contenido no puede ser reproducido, distribuido ni modificado sin el permiso expreso del titular de los derechos."
+            },
+            en: {
+                headerText: "My name is Jonay Santana, Android developer based in Telde, Gran Canaria, Spain. I've worked on diverse projects including banking apps, streaming, museums, focusing on clean, intuitive interfaces with Jetpack Compose and Kotlin.",
+                profileTitle: "Professional Profile",
+                projects: {
+                    guaguasGlobal: "Guaguas GLOBAL is the essential app for travelers seeking real-time intercity bus service updates on Gran Canaria. Plan your trip effortlessly with accurate ETAs and nearby stops.",
+                    guaguasLpa: "Guaguas LPA provides real-time bus information for Las Palmas urban routes. Perfect for locals and visitors to navigate efficiently without stress.",
+                    museoCanario: "Museo Canario app, a digital experience for Gran Canaria's premier scientific and cultural institution founded in 1879.",
+                    visitr: "Visitr: User-friendly app for museums, cultural sites, parks and tourist centers. Transform your travel with easy exploration worldwide.",
+                    paymaster: "Paymaster Virtual (AUTGC): Mobile top-up and purchase service for Gran Canaria public transport cards via Android devices or ATMs.",
+                    pidionLanzarote: "Internal service for Lanzarote transport company: Java web service for member card sales and recharges."
+                },
+                aboutP1: "Passionate developer creating impactful digital experiences. Extensive mobile app development for Android/iOS, delivering seamless UX with cutting-edge technical solutions.",
+                aboutP2: "Strong backend expertise with scalable APIs, PostgreSQL/MySQL/Oracle databases, and Node.js for full-stack development.",
+                aboutP3: "Proven track record solving complex challenges with clean code, performance optimization, and Android specialization using Compose.",
+                aboutP4: "Committed to continuous learning, exploring new technologies to deliver exceptional mobile apps in fintech and beyond.",
+                footer1: "&copy; 2026 Jonay Santana. All rights reserved.",
+                footer2: "This content may not be reproduced, distributed or modified without express permission."
+            }
+        };
+
+        const langBtn = document.getElementById('langBtn');
+        let currentLang = localStorage.getItem('lang') || 'es';
+
+        // Inicializar
+        function setLanguage(lang) {
+            currentLang = lang;
+            document.documentElement.lang = lang;
+            localStorage.setItem('lang', lang);
+
+            // Header
+            document.querySelector('.text').textContent = translations[lang].headerText;
+            document.querySelector('#about h2').textContent = translations[lang].profileTitle;
+
+            // Projects
+            document.querySelectorAll('.project-item h3')[0].textContent = 'Guaguas GLOBAL';
+            document.querySelectorAll('.project-item h3')[1].textContent = 'Guaguas LPA';
+            document.querySelectorAll('.project-item h3')[2].textContent = 'Museo Canario';
+            document.querySelectorAll('.project-item h3')[3].textContent = 'Visitr';
+            document.querySelectorAll('.project-item h3')[4].textContent = 'Paymaster Virtual (AUTGC)';
+            document.querySelectorAll('.project-item h3')[5].textContent = 'Pidion Lanzarote Service';
+
+            document.querySelectorAll('.project-item p')[0].textContent = translations[lang].projects.guaguasGlobal;
+            document.querySelectorAll('.project-item p')[1].textContent = translations[lang].projects.guaguasLpa;
+            document.querySelectorAll('.project-item p')[2].textContent = translations[lang].projects.museoCanario;
+            document.querySelectorAll('.project-item p')[3].textContent = translations[lang].projects.visitr;
+            document.querySelectorAll('.project-item p')[4].textContent = translations[lang].projects.paymaster;
+            document.querySelectorAll('.project-item p')[5].textContent = translations[lang].projects.pidionLanzarote;
+
+            // About (primeros 4 p)
+            const aboutPs = document.querySelectorAll('#about p');
+            aboutPs[0].innerHTML = translations[lang].aboutP1 + '<br/><br/>';
+            aboutPs[1].innerHTML = translations[lang].aboutP2 + '<br/><br/>';
+            aboutPs[2].innerHTML = translations[lang].aboutP3 + '<br/><br/>';
+            aboutPs[3].innerHTML = translations[lang].aboutP4;
+
+            // Footer
+            document.querySelectorAll('.footer p')[0].innerHTML = translations[lang].footer1;
+            document.querySelectorAll('.footer p')[1].textContent = translations[lang].footer2;
+
+            // Toggle visual
+            langBtn.classList.toggle('active', lang === 'en');
+        }
+
+        // Toggle event
+        langBtn.addEventListener('click', () => {
+            const newLang = currentLang === 'es' ? 'en' : 'es';
+            setLanguage(newLang);
+        });
+
+        // Init
+        setLanguage(currentLang);
+    </script>
 </body>
 </html>

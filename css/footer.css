@@ -1,8 +1,23 @@
-/* Footer */
 .footer {
-    background-color: #333;
-    color: #11031A;
-    padding: 20px 0;
+    background: linear-gradient(135deg, #0f0f0f, #1a1a1a); /* Tema oscuro elegante */
+    color: #ccc;
     text-align: center;
-    color: white;
+    padding: 40px 20px 30px;
+    margin-top: 60px;
+}
+.footer-logo {
+    display: block;
+    margin: 0 auto 20px;
+    width: 40px; /* Ajusta tamaño */
+    height: auto;
+    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.5)); /* Sombra sutil */
+}
+.footer p {
+    margin: 8px 0 0;
+    font-size: 0.85rem;
+    opacity: 0.8;
+}
+@media (max-width: 600px) {
+    .footer-logo { width: 50px; }
+    .footer p { font-size: 0.8rem; }
 }
